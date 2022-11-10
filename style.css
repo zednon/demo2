@@ -1,0 +1,51 @@
+header {
+    background-color: blueviolet;
+    height: auto;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+main {
+
+}
+
+footer {
+background-color: blueviolet;
+
+}
+
+li {
+    display: inline-block;
+    padding: 10px 15px;
+
+}
+
+li a {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+font-style: center;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li a:hover {
+    background-color: aliceblue;
+    color:blueviolet;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: auto;
+}
+
+button {
+    height: 200px;
+    width: 300px;
+}
